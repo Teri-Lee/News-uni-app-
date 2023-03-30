@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['navTo',['$0'],['item']]]]]}}" class="out" bindtap="__e"><image src="{{item.picurl}}" mode="aspectFill"></image><view class="text"><view class="title">{{item.title}}</view><view class="info"><text>{{item.author}}</text><text>{{item.hits+"浏览量"}}</text></view></view></view>

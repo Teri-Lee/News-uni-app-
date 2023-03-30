@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#68A5F7",
+    "backgroundColor": "#68A5F7"
+  },
+  "tabBar": {
+    "color": "grey",
+    "selectedColor": "#68A5F7",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icons/index.png",
+        "selectedIconPath": "static/icons/index_h.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人",
+        "iconPath": "static/icons/user.png",
+        "selectedIconPath": "static/icons/user_h.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
